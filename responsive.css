@@ -1,0 +1,763 @@
+
+
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.header {
+    display: contents;
+}
+.wrap{
+	width:100%;	
+}
+.logo {
+    width: 29%;
+}
+
+
+.numberOf_bg {
+    width: 100%;
+}
+.nav{
+    margin-top:0px;
+}
+.nav ul li a{
+	padding:20px 17px;
+}
+.section {
+	width:100%;
+	padding:0px;
+}
+.left_img {
+    width: 48%;
+}
+.left_img img {
+    width: 100%;
+    margin-left: 3%;
+    height: auto;
+}
+.right_text {
+    width: 49%;
+    margin-right: 7px;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+.btn button{
+	padding:20px 30px;
+}
+.numberOf_bg {
+    width: 100%;
+     border-radius: 0px;
+     background: none;
+}
+.numberOf {
+    width: 100%;
+    overflow: hidden;
+    padding: 47px 0px;
+    padding-left: 0px;
+    border-radius: 0px 178px 166px 0px;
+    background: #fd6d35;
+}
+.first_div {
+    width: 23%;
+	margin-left:0px;
+}
+
+.article{
+	width:48%;
+    float: left;
+}
+.aside {
+    width: 50%;
+    margin-left: 2%;
+	float:left;
+}
+.float_left {
+    margin-right:0px;
+}
+.img_warp {
+    width: 100%;
+}
+.fs {
+    width: 12%;
+    margin-top: 10%;
+    margin-left: 1%;
+}
+.img1 {
+    width: 12%;
+    text-align: center;
+    float: left;
+    margin-left: 4%;
+}
+.workflow_part img {
+    width: 70%;
+}
+.opportunity_part {
+	width: 100%;
+    margin-top: 11%;
+    overflow: hidden;
+}
+.age_level_cricket {
+    width: 27%;
+    float: left;
+    margin-right: 7%;
+    margin-left: 1%;
+    text-align: center;
+    overflow: hidden;
+}
+.left_side {
+    width: 48%;
+    height: auto;
+}
+.right_side {
+    width: 48%;
+    overflow: hidden;
+}
+.fdiv_img {
+    width: 29%;
+    float: left;
+}	
+.fdiv_img img {
+    width: 100%;
+    height: 150px;
+}
+.fdiv_title {
+    width: 70%;
+    float: left;
+    overflow: hidden;
+}
+.thca_galary {
+    width: 100%;
+    height: auto;
+    background: black;
+    padding: 5px 0px;
+}
+.first_img {
+    width: 30%;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+.second_img{
+    width: 30%;
+    margin-left: 3%;
+}
+.third_img{
+    width: 30%;
+    margin-left: 3%;
+}	
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+.header {
+    display: contents;
+}
+.wrap{
+	width:100%;	
+}
+.logo {
+    width: 29%;
+    padding: 13px 0px;
+}
+.menu {
+    display: none;
+}
+.nav {
+    width: 125px;
+    text-align: center;
+    float: right;
+    display: block;
+}
+.numberOf_bg {
+    width: 100%;
+}
+.nav{
+    margin-top:0px;
+}
+.nav ul li a{
+	padding:20px 17px;
+}
+.section {
+	width:100%;
+	padding:0px;
+}
+.left_img {
+    width: 100%;
+}
+.left_img img {
+    width: 99%;
+    margin-left: 3%;
+    height: auto;
+}
+.right_text {
+    width: 96%;
+   margin-right: 0px; 
+}
+.btn {
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+.btn button{
+	padding:20px 30px;
+}
+.numberOf {
+    width: 91%;
+    padding: 47px 0px;
+    background: #fd6d35;
+    padding-left: 0px;
+    margin-left: 5%;
+    border-radius: 30px;
+}
+.first_div {
+    width: 100%;
+    float: none;
+    border-bottom: 1px solid #e178789c;
+    padding: 17px 0px;
+    text-align: center;
+    margin-left: 0px;
+    margin-bottom: 6%;
+}
+.numberOf_bg{
+	width:100%;
+	border-radius:0px;
+	background:none;
+}
+.article{
+	width:100%;
+}
+.article h1 {
+    width: 100%;
+    color: #4c4a46;
+    font-size: 28px;
+    text-align: center;
+    font-weight: normal;
+    padding: 23px 11px;
+}
+.first_article {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.first_article img {
+    width: 23%;
+    height: auto;
+    margin-left: 40%;
+    margin-right: 0px;
+    float: none;
+}
+.first_article h2 {
+    color: #343131eb;
+    text-align: center;
+    font-weight: normal;
+}
+.first_article p {
+    line-height: 23px;
+    padding: 8px;
+    text-align: center;
+  
+}
+.aside {
+    width: 100%;
+}
+.aside img {
+  width: 92%;
+  margin-left: 4%;
+  margin-top: 4%;
+  border-radius: 10px;
+  margin-bottom: 0; 
+  height: auto;
+}
+.img_warp {
+    width: 100%;
+}
+.fs {
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 0px; 
+}
+.img1{
+    width: 100%;
+    margin-top: 6%;
+    margin-left: 0px; 	
+}
+.opportunity_part{
+    margin-top:0px;
+    padding: 55px 0px;
+}
+.opp_title h2 {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+.age_level_cricket {
+    width: 100%;
+    margin-right: 0px;
+    text-align: center;
+    overflow: hidden;
+}
+.age_level_cricket p {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    line-height: 22px;
+}
+.btn2 {
+    margin: 15px auto;
+}
+
+.btn2 button {
+    padding: 16px 40px;
+}
+.btn2 button:hover{
+   background-image: linear-gradient(to right, yellow , red);
+	padding:17px 41px;
+}
+
+.supporter_part {
+    margin-bottom: 35px;
+}
+.supporter_part h1 {
+    font-size: 28px;
+}
+.left_side {
+    width: 100%;
+    height: auto;
+}
+.fdiv_title {
+    width: 69%;
+    float: left;
+}
+.fdiv_img {
+    width: 30%;
+    float: left;
+}
+.fdiv_img img {
+    width: 100%;
+    height: auto;
+}
+.right_side {
+    width: 100%;
+    overflow: hidden;
+}
+.thca_galary {
+    width: 100%;
+    height: auto;
+    background: black;
+    padding: 10px 0px;
+    overflow: hidden;
+}
+.first_img {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 60px;
+    overflow: hidden;
+    transition: 0.40s all ease;
+}
+.first_img h1 {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+.first_img img {
+    width: 76%;
+    margin-left: 12%;
+    height: auto;
+    opacity: 0.95;
+    transition: 0.60s all ease;
+}
+.first_img img:hover{
+	opacity:1;
+	width:79%;
+    margin-left: 11%;
+}
+.second_img {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 10%;
+    transition: 0.60s all ease;
+    overflow: hidden;
+}
+.second_img  img{
+    width: 76%;
+    margin-left: 12%;
+    height: auto;
+    opacity: 0.95;
+    transition: 0.60s all ease;
+}
+.second_img img:hover{
+	opacity:1;
+	width:79%;
+    margin-left: 11%;
+}
+.third_img{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 10%;
+    transition: 0.60s all ease;
+    overflow: hidden;
+}
+.third_img  img{
+    width: 76%;
+    margin-left: 12%;
+    height: auto;
+    opacity: 0.95;
+    transition: 0.60s all ease;
+}
+.third_img img:hover{
+	opacity:1;
+	width:79%;
+    margin-left: 11%;
+}
+.footer {
+    width: 100%;
+    background: #ebf1f8;
+    overflow: hidden;
+}
+.jump {
+    margin-left: 10px;
+}
+
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+.header {
+    display: contents;
+}
+.wrap{
+	width:100%;	
+}
+.logo {
+    width: 29%;
+    padding: 13px 0px;
+}
+.menu {
+    display: none;
+}
+.nav {
+    width: 125px;
+    text-align: center;
+    float: right;
+    display: block;
+}
+.numberOf_bg {
+    width: 100%;
+}
+.nav{
+    margin-top:0px;
+}
+.nav ul li a{
+	padding:20px 17px;
+}
+.section {
+	width:100%;
+	padding:0px;
+}
+.left_img {
+    width: 100%;
+}
+.left_img img {
+    width: 99%;
+    margin-left: 3%;
+    height: auto;
+}
+.right_text {
+    width: 96%;
+   margin-right: 0px; 
+}
+.btn {
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+.btn button{
+	padding:20px 30px;
+}
+.numberOf {
+    width: 91%;
+    padding: 47px 0px;
+    background: #fd6d35;
+    padding-left: 0px;
+    margin-left: 5%;
+    border-radius: 30px;
+}
+.first_div {
+    width: 100%;
+    float: none;
+    border-bottom: 1px solid #e178789c;
+    padding: 17px 0px;
+    text-align: center;
+    margin-left: 0px;
+    margin-bottom: 6%;
+}
+.numberOf_bg{
+	width:100%;
+	border-radius:0px;
+	background:none;
+}
+.article{
+	width:100%;
+}
+.article h1 {
+    width: 100%;
+    color: #4c4a46;
+    font-size: 28px;
+    text-align: center;
+    font-weight: normal;
+    padding: 23px 11px;
+}
+.first_article {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.first_article img {
+    width: 23%;
+    height: auto;
+    margin-left: 40%;
+    margin-right: 0px;
+    float: none;
+}
+.first_article h2 {
+    color: #343131eb;
+    text-align: center;
+    font-weight: normal;
+}
+.first_article p {
+    line-height: 23px;
+    padding: 8px;
+    text-align: center;
+  
+}
+.aside {
+    width: 100%;
+}
+.aside img {
+  width: 92%;
+  margin-left: 4%;
+  margin-top: 4%;
+  border-radius: 10px;
+  margin-bottom: 0; 
+  height: auto;
+}
+.img_warp {
+    width: 100%;
+}
+.fs {
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 0px; 
+}
+.img1{
+    width: 100%;
+    margin-top: 6%;
+    margin-left: 0px; 	
+}
+.opportunity_part{
+    margin-top:0px;
+    padding: 55px 0px;
+}
+.opp_title h2 {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+.age_level_cricket {
+    width: 100%;
+    margin-right: 0px;
+    text-align: center;
+    overflow: hidden;
+}
+.age_level_cricket p {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    line-height: 22px;
+}
+.btn2 {
+    margin: 15px auto;
+}
+
+.btn2 button {
+    padding: 16px 40px;
+}
+.btn2 button:hover{
+   background-image: linear-gradient(to right, yellow , red);
+	padding:17px 41px;
+}
+
+.supporter_part {
+    margin-bottom: 35px;
+}
+.supporter_part h1 {
+    font-size: 28px;
+}
+.left_side {
+    width: 100%;
+    height: auto;
+}
+.fdiv_title {
+    width: 69%;
+    float: left;
+}
+.fdiv_img {
+    width: 30%;
+    float: left;
+}
+.fdiv_img img {
+    width: 100%;
+    height: auto;
+}
+.right_side {
+    width: 100%;
+    overflow: hidden;
+}
+.thca_galary {
+    width: 100%;
+    height: auto;
+    background: black;
+    padding: 10px 0px;
+    overflow: hidden;
+}
+.first_img {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 60px;
+    overflow: hidden;
+    transition: 0.40s all ease;
+}
+.first_img h1 {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+.first_img img {
+    width: 76%;
+    margin-left: 12%;
+    height: auto;
+    opacity: 0.95;
+    transition: 0.60s all ease;
+}
+.first_img img:hover{
+	opacity:1;
+	width:79%;
+    margin-left: 11%;
+}
+.second_img {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 10%;
+    transition: 0.60s all ease;
+    overflow: hidden;
+}
+.second_img  img{
+    width: 76%;
+    margin-left: 12%;
+    height: auto;
+    opacity: 0.95;
+    transition: 0.60s all ease;
+}
+.second_img img:hover{
+	opacity:1;
+	width:79%;
+    margin-left: 11%;
+}
+.third_img{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 10%;
+    transition: 0.60s all ease;
+    overflow: hidden;
+}
+.third_img  img{
+    width: 76%;
+    margin-left: 12%;
+    height: auto;
+    opacity: 0.95;
+    transition: 0.60s all ease;
+}
+.third_img img:hover{
+	opacity:1;
+	width:79%;
+    margin-left: 11%;
+}
+.footer {
+    width: 100%;
+    background: #ebf1f8;
+    overflow: hidden;
+}
+.jump {
+    margin-left: 10px;
+}
+
+
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	
+	
+	
+	
+	
+	
+	
+}
